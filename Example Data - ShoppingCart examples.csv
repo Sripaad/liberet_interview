@@ -1,0 +1,19 @@
+ShoppingCartId,userId,orderReference,productId,todayIs,serviceDate,serviceSchedule,productName,supplier,deliveryType,productCost,deliveryFee,deliveryFeeExplanation,totalCost
+shop_01,user_01,order_01,prod_03,2021-01-06T20:20:08.195Z,2021-01-020T09:00:00.000Z,9:00-11:00,Tuna Steak,Not a fancy place,DELIVERY,310,19,Schedule order with more than 60$,3793
+shop_01,user_01,order_01,prod_04,2021-01-06T20:20:08.195Z,2021-01-020T09:00:00.000Z,9:00-11:00,Alfredo pasta,Not a fancy place,DELIVERY,145,,,
+shop_01,user_01,order_02,prod_04,2021-01-06T20:20:08.195Z,2021-01-020T11:00:00.000Z,11:00-13:00,Alfredo pasta,Not a fancy place,PICKUP,145,0,deliveryType its not DELIVERY,
+shop_01,user_01,order_02,prod_03,2021-01-06T20:20:08.195Z,2021-01-020T11:00:00.000Z,11:00-13:00,Tuna Steak,Not a fancy place,PICKUP,310,,,
+shop_01,user_01,order_03,prod_09,2021-01-06T20:20:08.195Z,2021-01-020T13:00:00.000Z,13:00-15:00,Mexican tamaliza for 20,Still better than brocoli,DELIVERY,2500,199,One of the products in the order cost higher or equal 2000 ,
+shop_01,user_01,order_03,prod_06,2021-01-06T20:20:08.195Z,2021-01-020T13:00:00.000Z,13:00-15:00,Mexican Tamal 1 pz,Still better than brocoli,DELIVERY,39,,,
+shop_01,user_01,order_03,prod_07,2021-01-06T20:20:08.195Z,2021-01-020T13:00:00.000Z,13:00-15:00,Banana puddin,Still better than brocoli,DELIVERY,29,,,
+shop_01,user_01,order_03,prod_08,2021-01-06T20:20:08.195Z,2021-01-020T13:00:00.000Z,13:00-15:00,Black beans,Still better than brocoli,DELIVERY,30,,,
+shop_01,user_01,order_04,prod_06,2021-01-06T20:20:08.195Z,2021-01-020T13:00:00.000Z,9:00-11:00,Mexican Tamal 1 pz,Still better than brocoli,DELIVERY,39,28,Schedule order with less than 60$,
+shop_02,user_02,order_05,prod_03,2021-01-020T08:00:00.000Z,2021-01-020T09:00:00.000Z,9:00-11:00,Tuna Steak,Not a fancy place,DELIVERY,310,28,Express order with more than 60$,3812
+shop_02,user_02,order_05,prod_04,2021-01-020T08:00:00.000Z,2021-01-020T09:00:00.000Z,9:00-11:00,Alfredo pasta,Not a fancy place,DELIVERY,145,,,
+shop_02,user_02,order_06,prod_04,2021-01-020T08:00:00.000Z,2021-01-020T11:00:00.000Z,9:00-11:00,Alfredo pasta,Not a fancy place,RESERVATION,145,0,deliveryType its not DELIVERY,
+shop_02,user_02,order_06,prod_03,2021-01-020T08:00:00.000Z,2021-01-020T11:00:00.000Z,9:00-11:00,Tuna Steak,Not a fancy place,RESERVATION,310,,,
+shop_02,user_02,order_07,prod_09,2021-01-020T11:00:00.000Z,2021-01-020T13:00:00.000Z,9:00-11:00,Mexican tamaliza for 20,Still better than brocoli,DELIVERY,2500,199,One of the products in the order cost higher or equal 2000 ,
+shop_02,user_02,order_07,prod_06,2021-01-020T11:00:00.000Z,2021-01-020T13:00:00.000Z,9:00-11:00,Mexican Tamal 1 pz,Still better than brocoli,DELIVERY,39,,,
+shop_02,user_02,order_07,prod_07,2021-01-020T11:00:00.000Z,2021-01-020T13:00:00.000Z,9:00-11:00,Banana puddin,Still better than brocoli,DELIVERY,29,,,
+shop_02,user_02,order_07,prod_08,2021-01-020T11:00:00.000Z,2021-01-020T13:00:00.000Z,9:00-11:00,Black beans,Still better than brocoli,DELIVERY,30,,,
+shop_02,user_02,order_08,prod_06,2021-01-020T11:00:00.000Z,2021-01-020T13:00:00.000Z,9:00-11:00,Mexican Tamal 1 pz,Still better than brocoli,DELIVERY,39,38,Express order with less than 60$,
