@@ -16,34 +16,34 @@ it’s completed by the user or all the products in the shopping cart are remove
 2. A shopping cart can have any amount of products, as the user wants.
 3. The shopping cart service will group all the products in orders.
 4. An order is defined by the unique combination of:
-a. Service Day -> MUST be handled as string in ISO utc ->
+    - a. Service Day -> MUST be handled as string in ISO utc ->
 https://en.wikipedia.org/wiki/ISO_8601
-b. Service Schedule: Liberet will only handle 3 delivery times
-i. 9:00 - 11:00
-ii. 11:00 - 13:00
-iii. 13:00 - 15:00
-c. Supplier: handled as string
-d. Delivery Type: Liberet only handle 3 delivery types:
-i. Pickup
-ii. Reservation
-iii. Delivery
+    - b. Service Schedule: Liberet will only handle 3 delivery times
+        - i. 9:00 - 11:00
+        - ii. 11:00 - 13:00
+        - iii. 13:00 - 15:00
+    - c. Supplier: handled as string
+    - d. Delivery Type: Liberet only handle 3 delivery types:
+        - i. Pickup
+        - ii. Reservation
+        - iii. Delivery
 5. An order can have any amount of products,
 6. The order cost is the sum of all products in the order.
 7. Each order must add an extra amount to the total with the concept of “Delivery Fee”
 8. The Delivery fee is calculated following these rules:
-a. DELIVERY FEE only APPLY for delivery type “DELIVERY”
-b. Express Order: an order which is requested less than 4 hours prior its delivery
-c. Scheduled order: an order which is requested with more than 4 hours prior its
+    - a. DELIVERY FEE only APPLY for delivery type “DELIVERY”
+    - b. Express Order: an order which is requested less than 4 hours prior its delivery
+    - c. Scheduled order: an order which is requested with more than 4 hours prior its
 delivery
-d. Express Order = 28MXN DELIVERY FEE
-e. Schedule Order = 19MXN DELIVERY FEE
-f. Express orders with a cost under 60 MXN (sum of all products in the order) =
+    - d. Express Order = 28MXN DELIVERY FEE
+    - e. Schedule Order = 19MXN DELIVERY FEE
+    - f. Express orders with a cost under 60 MXN (sum of all products in the order) =
 38MXN DELIVERY FEE
-g. Scheduled Orders with a cost under than 60MXN (sum of all products in the
+    - g. Scheduled Orders with a cost under than 60MXN (sum of all products in the
 order) = 28MXN DELIVERY FEE
-h. Any order with at least one product with a cost higher or equal to 2000MXN =
+    - h. Any order with at least one product with a cost higher or equal to 2000MXN =
 199MXN DELIVERY FEE
-i. All costs and delivery fees are displayed with 2 decimal places, the currency is
+    - i. All costs and delivery fees are displayed with 2 decimal places, the currency is
 MXN.
 Examples and some data:
 https://docs.google.com/spreadsheets/d/115A4_LtnZJ-QeD25GCeOBi-Rk4Hg_fDE5lEu6OSInic
