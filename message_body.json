@@ -1,0 +1,11 @@
+{
+"productId": "prod_06",
+"serviceDate": "2021-01-020T13:00:00.000Z",
+"serviceSchedule": "9:00-11:00",
+"productName": "Mexican Tamal 1 pz",
+"supplier": "Still better than brocoli",
+"deliveryType": "DELIVERY",
+"productCost": 39,
+"amount": 38,
+"orderReference" : "None"
+}
